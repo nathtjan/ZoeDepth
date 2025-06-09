@@ -1,0 +1,13 @@
+h5py
+matplotlib
+numpy
+opencv-python
+scipy
+torch
+torchaudio
+torchvision
+huggingface-hub
+timm==0.6.7
+tqdm
+wandb
+Pillow==9.5.0
