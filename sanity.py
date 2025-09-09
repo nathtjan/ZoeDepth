@@ -67,7 +67,7 @@ print("\n\n")
 print("-"*20 + " Testing on an indoor scene from url " + "-"*20)
 
 # Test img
-url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4W8H_Nxk_rs3Vje_zj6mglPOH7bnPhQitBH8WkqjlqQVotdtDEG37BsnGofME3_u6lDk&usqp=CAU"
+url = "https://the-public-domain-review.imgix.net/collections/field-columbian-museum-1894-1920/3349700230_56ac420b43_o.jpg?fit=clip&w=1050&h=800&auto=format,compress"
 img = get_image_from_url(url)
 orig_size = img.size
 X = ToTensor()(img)
